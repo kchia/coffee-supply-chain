@@ -18,13 +18,10 @@
 - [Retailer Role](https://rinkeby.etherscan.io/tx/0x7177fab5e24263e342fc976a5278faeeef3769329085a070249e2aab4e104a60)
 - [Consumer Role](https://rinkeby.etherscan.io/tx/0x0519f1e2488732f51d4bfd625e6eca287738caf86f5cdab38d0eabad4541f04c)
 
-## Package Versions
-
-- Node: `14.2.0`
-- Truffle: `5.3.3`
-- Web3: `^1.3.5`
-
 ## Libraries Used
 
+- Node `14.2.0` provides a back-end JavaScript runtime for executing JavaScript code
+- Truffle `5.3.3` provides a suite of tools for smart contracts development using the EVM, including the ability to set up a personal blockchain via Ganache
+- Web3 `^1.3.5` provides a JavaScript API to interact with a local Ethereum blockchain
 - [dotenv](https://www.npmjs.com/package/dotenv) for loading environment variables from a `.env` file
 - [truffle-hdwallet-provider](https://www.npmjs.com/package/@truffle/hdwallet-provider) for signing transactions on the test Rinkeby network
